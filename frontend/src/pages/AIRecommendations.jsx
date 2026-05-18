@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://perfai-backend-r3vt.onrender.com";
 
 export default function AIRecommendations() {
   const [results, setResults] = useState(null);

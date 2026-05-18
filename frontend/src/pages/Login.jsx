@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://perfai-backend-r3vt.onrender.com";
 
 export default function Login() {
   const navigate = useNavigate();
